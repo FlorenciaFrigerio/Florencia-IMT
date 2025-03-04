@@ -1,8 +1,9 @@
-#bin/bash
+#!/bin/bash
 pwd
 cd /tmp
-ls 
+ls
 cd ~
 mkdir practica_shell
-cd ./practica_shell
-pwd
+cd practica_shell
+pwd 
+

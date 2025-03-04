@@ -1,8 +1,8 @@
-mkdir documentos
-touch nota{1..5}.txt 
-mv nota {3..4}.txt /bakcup
-mkdir imagenes 
-mkdir scripts
-rm -r imagenes 
-ls -l
+#!/bin/bash
+mkdir -p documentos
+mkdir -p imagenes 
+mkdir -p scripts
+touch documentos/nota{1..5}.txt
+mv documentos/nota3.txt documentos/nota4.txt practica_shell/backup/
+rm -r imagenes
 
