@@ -1,0 +1,26 @@
+EJERCICIO 1
+chmod 640 documento1.txt 
+EJeRCICIo 2
+
+nano script.sh 
+#!/bin/bash
+echo "Por favor, ingrese su nombre"
+read nombre
+echo "Hola, $nombre , bienvenide "
+#Contenido del scrip
+echo "Este es el contenido"
+cat script.sh
+#Permiso
+chmod 711 script.sh
+
+Ejercicio3 
+#permiso
+chmod 600 config.cfg 
+# ver permiso
+ls -l
+
+EJERCICIO4
+#permiso
+chmod 400 secreto.key
+#ver permmiso 
+ls -l
